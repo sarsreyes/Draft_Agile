@@ -1,0 +1,6 @@
+# Pin exact versions after your first successful install:
+#   pip freeze | grep -iE "^(pandas|streamlit|plotly|pytest)=="
+pandas>=2.0
+streamlit>=1.30
+plotly>=5.18
+pytest>=7.0

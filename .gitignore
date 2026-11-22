@@ -1,0 +1,30 @@
+# Datasets: never commit these (large, and provided separately)
+data/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebooks (exploration only, never committed)
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit / IDE / OS
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated reports
+exploration_report.txt
